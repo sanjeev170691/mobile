@@ -20,3 +20,11 @@ function myFunction() {
 }
 </script>
 
+<button onclick="document.getElementById('demo').innerHTML = Date()">The time is?</button>
+
+age = Number(age);
+if (isNaN(age)) {
+  voteable = "Input is not a number";
+} else {
+  voteable = (age < 18) ? "Too young" : "Old enough";
+}
